@@ -5,8 +5,9 @@ In this project, I performed a Cohort Analysis, Net Dollar Revenue Analysis, Cus
 
 ## *Key Steps & Analysis Performed:*
 ### *1. Data Preprocessing:*
-`Data Cleaning`: Handled missing data by dropping rows with missing CustomerID.                                                                                                                                 `Date Parsing`: Converted the InvoiceDate to a datetime object and created a new column InvoiceMonth representing the month of each transaction.
-`Cohort Assignment`: Grouped customers by their first purchase month (CohortMonth) and calculated the cohort index to analyze customer behavior over time.
+Data Cleaning: Handled missing data by dropping rows with missing CustomerID.                                                                                                                                 
+Date Parsing: Converted the InvoiceDate to a datetime object and created a new column InvoiceMonth representing the month of each transaction.
+Cohort Assignment: Grouped customers by their first purchase month (CohortMonth) and calculated the cohort index to analyze customer behavior over time.
 ### *2. Cohort Analysis:*
 `Cohort Grouping`: Identified cohorts based on the earliest purchase month for each customer.
 `Retention Analysis`: Calculated the retention rate for each cohort by measuring how many customers from the original cohort continued making purchases in subsequent months.
