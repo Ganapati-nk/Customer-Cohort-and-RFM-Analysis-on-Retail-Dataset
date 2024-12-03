@@ -1,4 +1,7 @@
 # *Customer Cohort and RFM Analysis on Retail Dataset*
+<a href="RFM.png" target="_blank">
+    <img src="RFM.png" alt="RFM.png" width="800" />
+</a>git
 
 Project Overview:
 In this project, I performed a Cohort Analysis, Net Dollar Revenue Analysis, Customer Lifetime Value Analysis, and RFM (Recency, Frequency, Monetary) Segmentation on an online retail dataset. The goal was to understand customer behavior over time, evaluate retention rates, assess customer lifetime revenue, and categorize customers based on their purchasing habits. Visualizations such as heatmaps, bar plots, and box plots were used to derive meaningful insights.
